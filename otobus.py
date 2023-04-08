@@ -5,7 +5,6 @@ from OpenGL.GLU import *
 
 from Shapes import Point2D
 
-
 def initializeGL():
     glClearColor(1.0, 1.0, 1.0, 0.0)  
     glShadeModel(GL_FLAT)  
