@@ -32,12 +32,11 @@ def displayGL():
     p4 = Point2D([900, 400])
     p4.size = 6.0
 
+    drawWireframeRect(p1, p2, p3, p4)
+
     radius = 50
     center1 = Point2D([300, 100])
     center2 = Point2D([650, 100])
-
-
-    drawWireframeRect(p1, p2, p3, p4)
 
     drawCircleBresenham(center1, radius)
     drawCircleBresenham(center2, radius)
